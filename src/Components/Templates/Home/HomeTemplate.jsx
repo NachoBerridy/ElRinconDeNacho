@@ -1,9 +1,10 @@
 import React from "react";
+import HomeMainSection from "../../Organisms/HomeMainSection/HomeMainSection";
 
 const HomeTemplate = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <HomeMainSection />
         </div>
     );
 }

@@ -12,12 +12,6 @@ export const setLanguageAction = (language) => {
     }
 }
 
-export const setDataAction = (data) => {
-    return (dispatch) => {
-        dispatch(setData(data));
-    }
-}
-
 export const setThemeAction = (theme) => {
     /*
         *   This function is used to set the theme in the store.

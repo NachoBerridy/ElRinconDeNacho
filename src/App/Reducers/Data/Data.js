@@ -1,10 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
+import ES from '../../../assets/ES.json'
+import EN from '../../../assets/EN.json'
 
 
 const initialState = {
     language: "en",
     theme: "dark",
-    data : {},
+    data : {
+        es: ES,
+        en: EN
+    },
 }
 
 const dataSlice = createSlice({

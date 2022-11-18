@@ -7,3 +7,5 @@ const store = configureStore({
         data: dataReducer,
     }
 });
+
+export default store;
