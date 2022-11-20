@@ -1,10 +1,12 @@
 import React from "react";
 import Title from "../../Molecules/Title/Title";
+import LanguageButton from "../../Atoms/Buttons/Language/LanguageButton";
 
 const HomeMainSection = () => {
     return (
-        <div className="home-main-section">
+        <div className="">
             <Title />
+            <LanguageButton />
         </div>
     );
 }

@@ -7,6 +7,7 @@ export const setLanguageAction = (language) => {
         *   @param {string} language - The language to set.
         *   Options: "en", "es"
     */
+   console.log("setLanguageAction", language);
     return (dispatch) => {
         dispatch(setLanguage(language));
     }
