@@ -5,8 +5,7 @@ import LanguageButton from "../../Atoms/Buttons/Language/LanguageButton";
 const HomeMainSection = () => {
     return (
         <div className="">
-            <Title />
-            <LanguageButton />
+            <Title className=""/>
         </div>
     );
 }

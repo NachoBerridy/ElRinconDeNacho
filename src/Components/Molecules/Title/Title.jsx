@@ -13,7 +13,7 @@ const Title = () => {
     }, [language])
 
     return (
-        <div className="title">
+        <div className="title ">
             {
                 language === "es" ?
                     data.es.title.map((title, index) => (

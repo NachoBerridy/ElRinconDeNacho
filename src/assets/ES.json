@@ -3,5 +3,29 @@
         "Hola",
         "Soy Nacho",
         "Desarrollador Web"
+    ],
+    "sideItems":[
+        {
+            "title":"Sobre mí",
+            "link":"#about",
+            "description":[
+                "Soy un desarrollador web que vive en Argentina.",
+                "Mi pasión por la tecnología y resolver problema me llevo a estudiar programación.",
+                "Me gusta aprender cosas nuevas y compartir lo que aprendo.",
+                "Siempre estoy buscando nuevas oportunidades para seguir creciendo como profesional."
+            ]
+        },
+        {
+            "title":"Habilidades",
+            "link":"#skills"
+        },
+        {
+            "title":"Proyectos",
+            "link":"#projects"
+        },
+        {
+            "title":"Contacto",
+            "link":"#contact"
+        }
     ]
 }

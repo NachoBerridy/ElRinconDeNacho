@@ -3,5 +3,29 @@
         "Hi",
         "I'm Nacho",
         "Web Developer"
+    ],
+    "sideItems":[
+        {
+            "title":"About",
+            "link":"#about",
+            "description":[
+                "I'm a web developer from Argentina. I'm passionate about web development and I'm always looking for new challenges and opportunities.",
+                "Mi pasión por la tecnología y resolver problema me llevo a estudiar programación.",
+                "Me gusta aprender cosas nuevas y compartir lo que aprendo.",
+                "Siempre estoy buscando nuevas oportunidades para seguir creciendo como profesional."
+            ]
+        },
+        {
+            "title":"Skills",
+            "link":"#skills"
+        },
+        {
+            "title":"Projects",
+            "link":"#projects"
+        },
+        {
+            "title":"Contact",
+            "link":"#contact"
+        }
     ]
 }
