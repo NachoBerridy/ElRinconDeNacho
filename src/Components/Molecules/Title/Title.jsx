@@ -15,14 +15,9 @@ const Title = () => {
     return (
         <div className="title ">
             {
-                language === "es" ?
-                    data.es.title.map((title, index) => (
-                        <TitleWords key={index} title={title} />
-                    ))
-                    :
-                    data.en.title.map((title, index) => (
-                        <TitleWords key={index} title={title} />
-                    ))
+                data.title.map((title, index) => (
+                    <TitleWords key={index} title={title} />
+                ))
             }
         </div>
     )

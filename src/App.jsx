@@ -12,8 +12,8 @@ import { Route, Routes } from "react-router-dom";
 function App() {
 
   return (
-    <div className="App absolute top-0 left-0 w-screen h-screen grid grid-cols-12 grid-rows-6 p-2">
-      <div className="row-span-full col-span-2 col-start-0">
+    <div className="App absolute top-0 left-0 w-screen h-screen grid grid-cols-12 grid-rows-6">
+      <div className="row-span-full col-span-2 relative col-start-0 bg-sideBg">
         <SideBar />
       </div>
       <div className="fixed top-4 right-4">

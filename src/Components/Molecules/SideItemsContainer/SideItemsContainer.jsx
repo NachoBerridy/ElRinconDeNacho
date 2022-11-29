@@ -17,16 +17,10 @@ const SideItemsContainer = () => {
     return (
         <div className="side-items-container">
             {
-                language === "en" ?
-                data.en.sideItems.map((item, index) => {
+                data.sideItems.map((item, index) => {
                     return <SideItems key={index} title={item.title} />
                 }
-                )
-                :
-                data.es.sideItems.map((item, index) => {
-                    return <SideItems key={index} title={item.title} />
-                }
-                )
+                )   
             }
         </div>
     );
