@@ -3,28 +3,24 @@ import { useSelector } from "react-redux";
 
 const AboutMainSection = () => {
 
-    const { language } = useSelector(state => state.data)
-    const eng = useSelector(state => state.data.data.en.sideItems)[0]
-    console.log(eng)
+    const info = useSelector(state => state.data.data.sideItems)[0]
 
     return (
-        <div className="flex flex-col h-full justify-center items-start ">
-            {
-                language === "en" ?
-                <div className=" flex flex-col gap-10 items-start">
-                    <h1 className="text-4xl font-bold text-white">ABOUT ME</h1>
-                    {
-                        eng.description.map ((item, index) => {
-                            return <p key={index} className="text-white">{item}</p>
-                        })
-                    }
+        <div className="h-about w-about justify-center items-center p-4 ">
+                <div className=" flex flex-col h-full w-full gap-10 items-start">
+                    <h1 className="text-6xl font-bold">
+                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-blue-600 ">
+                            { info.title } 
+                        </span>
+                    </h1>
+                    <div className="flex flex-col items-start justify-start">
+                        {
+                            info.description.map ((item, index) => {
+                                return <span key={index} className="text-white text-justify text-xl ">{item}</span>
+                            })
+                        }
+                    </div>
                 </div>
-                :
-                <div className="flex flex-col gap-2 justify-center items-start">
-                    <h1 className="text-4xl font-bold text-white">Sobre mí</h1>
-                    <p className="text-white text-xl">adsdas</p>
-                </div>
-            }
         </div>
 
     );

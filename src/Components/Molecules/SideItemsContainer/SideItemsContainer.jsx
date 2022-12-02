@@ -15,18 +15,12 @@ const SideItemsContainer = () => {
     }, [language])
 
     return (
-        <div className="side-items-container">
+        <div className="side-items-container flex flex-col w-full divide-y justify-center items-center">
             {
-                language === "en" ?
-                data.en.sideItems.map((item, index) => {
+                data.sideItems.map((item, index) => {
                     return <SideItems key={index} title={item.title} />
                 }
-                )
-                :
-                data.es.sideItems.map((item, index) => {
-                    return <SideItems key={index} title={item.title} />
-                }
-                )
+                )   
             }
         </div>
     );

@@ -4,12 +4,9 @@ import EN from '../../../assets/EN.json'
 
 
 const initialState = {
-    language: "en",
+    language: "es",
     theme: "dark",
-    data : {
-        es: ES,
-        en: EN
-    },
+    data : ES
 }
 
 const dataSlice = createSlice({
@@ -19,6 +16,11 @@ const dataSlice = createSlice({
     reducers: {
         setLanguage: (state, action) => {
             state.language = action.payload;
+            if (state.language === "en") {
+                state.data = EN
+            } else {
+                state.data = ES
+            }
         },
         setData: (state, action) => {
             state.data = action.payload;

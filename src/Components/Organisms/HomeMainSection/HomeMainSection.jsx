@@ -1,11 +1,12 @@
 import React from "react";
 import Title from "../../Molecules/Title/Title";
-import LanguageButton from "../../Atoms/Buttons/Language/LanguageButton";
+import ContactButton from "../../Atoms/Buttons/ContactButton/ContactButton";
 
 const HomeMainSection = () => {
     return (
-        <div className="">
-            <Title className=""/>
+        <div className="flex flex-col gap-3 w-full h-fit items-start pl-8">
+            <Title />
+            <ContactButton />
         </div>
     );
 }

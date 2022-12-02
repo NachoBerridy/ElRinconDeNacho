@@ -1,6 +1,6 @@
 {
     "title":[
-        "Hola",
+        "Hola,",
         "Soy Nacho",
         "Desarrollador Web"
     ],
@@ -27,5 +27,17 @@
             "title":"Contacto",
             "link":"#contact"
         }
+    ],
+    "Technologies":[
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Tailwind",
+        "Redux",
+        "Node",
+        "Express",
+        "TypeScript"
     ]
 }
