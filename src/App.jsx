@@ -19,7 +19,7 @@ function App() {
       <div className="fixed top-4 right-4">
         <LanguageButton />
       </div>
-      <div className='col-start-3 h-full row-span-full col-span-full'>
+      <div className='col-start-3 h-full row-span-full col-span-full '>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -16,7 +16,7 @@ const AboutMainSection = () => {
                     <div className="flex flex-col items-start justify-start">
                         {
                             info.description.map ((item, index) => {
-                                return <span key={index} className="text-white text-xl text-start">{item}</span>
+                                return <span key={index} className="text-white text-justify text-xl ">{item}</span>
                             })
                         }
                     </div>
