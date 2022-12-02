@@ -8,11 +8,11 @@ const AboutMainSection = () => {
     console.log(eng)
 
     return (
-        <div className="h-full justify-center items-center bg-black">
+        <div className="flex flex-col h-full justify-center items-start ">
             {
                 language === "en" ?
-                <div className=" flex flex-col h-full w-full gap-10 items-start">
-                    <h1 className="text-4xl font-bold text-white">About</h1>
+                <div className=" flex flex-col gap-10 items-start">
+                    <h1 className="text-4xl font-bold text-white">ABOUT ME</h1>
                     {
                         eng.description.map ((item, index) => {
                             return <p key={index} className="text-white">{item}</p>
