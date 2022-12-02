@@ -16,7 +16,7 @@ function App() {
       <div className="row-span-full col-span-2 relative col-start-0 bg-sideBg">
         <SideBar />
       </div>
-      <div className="fixed top-4 right-4">
+      <div className="fixed z-50 top-4 right-4">
         <LanguageButton />
       </div>
       <div className='col-start-3 h-full row-span-full col-span-full '>

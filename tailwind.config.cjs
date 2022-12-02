@@ -11,13 +11,13 @@ module.exports = {
       width: {
         "about": "45vw",
         "dotsBox": "30px",
-        "dots": "6%"
+        "dots": "8%"
       },
       height: {
         "cloud": "70vh",
         "title": "40vh",
         "dotsBox": "30px",
-        "dots": "6%"
+        "dots": "8%"
       },
       colors: {
         "sideBg": "#383838",

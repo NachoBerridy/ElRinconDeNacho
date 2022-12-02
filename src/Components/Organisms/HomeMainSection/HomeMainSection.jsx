@@ -4,7 +4,7 @@ import ContactButton from "../../Atoms/Buttons/ContactButton/ContactButton";
 
 const HomeMainSection = () => {
     return (
-        <div className="flex flex-col gap-3 w-full h-fit items-start pl-8">
+        <div className="flex flex-col gap-3 w-full h-fit items-start pl-8 z-50">
             <Title />
             <ContactButton />
         </div>

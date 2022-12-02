@@ -1,15 +1,17 @@
 import React from "react";
 import HomeMainSection from "../../Organisms/HomeMainSection/HomeMainSection";
 import DotsContainer from "../../Molecules/DotsContainer/DotsContainer";
+import Bounce from "../../Atoms/Animations/bounce";
 
 const HomeTemplate = () => {
     return (
         // <div className="w-full grid grid-cols-12 grid-rows-6 p-2">
-        <div className=" flex flex-col justify-center items-center h-screen w-full">
+        <div className="relative flex flex-col justify-center items-center h-screen w-full overflow-hidden">
             {/* <div className="col-start-1 row-start-2 col-span-full  bg-slate-500 h-title"> */}
-            <HomeMainSection className=" z-50" />
+            <HomeMainSection />
             {/* </div> */}
-            <DotsContainer />   
+            {/* <DotsContainer />    */}
+            <Bounce />
         </div>
     );
 }
