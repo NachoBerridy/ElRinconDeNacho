@@ -1,6 +1,7 @@
 import React from "react";
 import HomeMainSection from "../../Organisms/HomeMainSection/HomeMainSection";
 import DotsContainer from "../../Molecules/DotsContainer/DotsContainer";
+import Dots from "../../Atoms/Animations/dots";
 import Bounce from "../../Atoms/Animations/bounce";
 
 const HomeTemplate = () => {
@@ -11,7 +12,8 @@ const HomeTemplate = () => {
             <HomeMainSection />
             {/* </div> */}
             {/* <DotsContainer />    */}
-            <Bounce />
+            {/* <Bounce /> */}
+            <Dots />
         </div>
     );
 }
