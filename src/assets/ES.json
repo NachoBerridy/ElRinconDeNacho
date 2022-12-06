@@ -7,12 +7,11 @@
     "sideItems":[
         {
             "title":"Sobre mí",
+            "subTitle":"Sobre Mí",
             "link":"#about",
             "description":[
-                "Soy un desarrollador web que vive en Argentina.",
-                "Mi pasión por la tecnología y resolver problema me llevo a estudiar programación.",
-                "Me gusta aprender cosas nuevas y compartir lo que aprendo.",
-                "Siempre estoy buscando nuevas oportunidades para seguir creciendo como profesional."
+                "Soy Desarrollador Web. Me apasiona la tecnología y resolver problemas, por eso me embarqué en este camino de la  programación. Además me encanta la matemática y la física, entender como funcionan las cosas.",
+                "Actualmente estudio ingeniería y programación. Gracias a mi carrera en ingeniería pude aprender y me despertó gran interés la inteligencia artificial aplicada a la resolución de distintos problemas."
             ]
         },
         {
@@ -25,6 +24,8 @@
         },
         {
             "title":"Contacto",
+            "subTitle":"Contactame",
+            "description":"Si tenes alguna pregunta, te interesa trabajar conmigo o simplemente quieres saludar, no dudes en contactarme.",
             "link":"#contact"
         }
     ],

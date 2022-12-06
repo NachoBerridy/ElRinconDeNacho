@@ -1,11 +1,12 @@
 import React from "react";
+import ContactMainSection from "../../Organisms/ContactMainSection/ContactMainSection";
 
 
 const ContactTemplate = () => {
 
     return (
-        <div>
-            <span className="bg-sky-400 animate-wiggle">adasdsa</span>
+        <div className="w-full h-full">
+            <ContactMainSection />
         </div>
 
     );

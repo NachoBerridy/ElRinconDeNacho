@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      height: {
-        "about": "50vh"
-      },
       width: {
         "about": "45vw",
         "dotsBox": "30px",
@@ -17,7 +14,8 @@ module.exports = {
         "cloud": "70vh",
         "title": "40vh",
         "dotsBox": "30px",
-        "dots": "8%"
+        "dots": "8%",
+        "about": "50vh",
       },
       colors: {
         "sideBg": "#383838",

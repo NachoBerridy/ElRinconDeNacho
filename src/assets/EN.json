@@ -7,6 +7,7 @@
     "sideItems":[
         {
             "title":"About",
+            "subTitle":"About Me",
             "link":"#about",
             "description":[
                 "I'm a web developer from Argentina." ,
@@ -24,6 +25,8 @@
         },
         {
             "title":"Contact",
+            "subTitle":"Contact Me",
+            "description":"If you have any questions, you want to work with me or just want to say hi, feel free to contact me.",
             "link":"#contact"
         }
     ],
