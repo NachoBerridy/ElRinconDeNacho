@@ -10,6 +10,7 @@ import { useSpring, a } from "react-spring";
 const ProjectCard = ({title, img, description, link, technologies}) => {
 
     const [ flipped, set ]  = useState(false)
+    const [ liked, setLiked ] = useState(false)
     const { language } = useSelector(state => state.data)
     const { transform, opacity } = useSpring({
         opacity: flipped ? 1 : 0,
@@ -50,7 +51,13 @@ const ProjectCard = ({title, img, description, link, technologies}) => {
             {/* <p className=" text-justify">{description}</p> */}
             <div className="flex justify-around w-full  items-center h-1/6">
                 <div className="flex items-center h-full">
-                    <BsHeart className="h-2/5 w-auto text-pink-500 hover:scale-105 hover:cursor-pointer"/>
+                    {
+                        liked ? (
+                            <BsHeartFill className="h-2/5 w-auto text-pink-500 hover:scale-105 hover:cursor-pointer" onClick={() => setLiked(state => !state)}/>
+                        ) : (
+                            <BsHeart className="h-2/5 w-auto text-pink-500 hover:scale-105 hover:cursor-pointer" onClick={() => setLiked(state => !state)}/>
+                        )
+                    }
                 </div>
                 <a href={link} target="blank" className="flex gap-3 h-full items-center bg-transparent focus:outline-none border-none hover:scale-105">
                     <FiLink className="h-2/5 w-auto text-sky-400 "/> 
@@ -60,9 +67,17 @@ const ProjectCard = ({title, img, description, link, technologies}) => {
                     <AiOutlineInfoCircle className="h-2/5 w-auto text-sky-400 hover:scale-105 hover:cursor-pointer"/>
                     {
                         language === 'en' ? (
-                            <p className="text-white text-xl">More Info</p>
+                            !flipped ? (
+                                <p className="text-white text-xl">More Info</p>
+                            ) : (
+                                <p className="text-white text-xl">Hide</p>
+                            )
                         ) : (
-                            <p className="text-white text-xl">Mas Info</p>
+                            !flipped ? (
+                                <p className="text-white text-xl">Más Info</p>
+                            ) : (
+                                <p className="text-white text-xl">Ocultar</p>
+                            )
                         )
                     }
                 </button>
