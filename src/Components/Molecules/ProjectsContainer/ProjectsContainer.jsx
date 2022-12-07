@@ -10,7 +10,7 @@ const ProjectsContainer = () => {
 
     return (
 
-        <div className="projects-container flex gap-5 flex-wrap justify-around items-start p-4 w-full h-cloud overflow-y-scroll">
+        <div className="projects-container flex gap-5 flex-wrap justify-between pr-2 items-start w-full h-cloud overflow-x-hidden overflow-y-scroll">
             {projects.map((project, index) => {
                 return (
                     <ProjectCard

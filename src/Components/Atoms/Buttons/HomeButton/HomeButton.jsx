@@ -1,16 +1,19 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import logoen from "../../../../Assets/logoen.png";
+import logoes from "../../../../Assets/logoes.png";
 import { Link } from "react-router-dom";
 
 const HomeButton = () => {
 
+    const { language } = useSelector((state) => state.data);
+
     return (
-        <div className="home-button">
+        <div className="h-full flex justify-center items-center w-full">
             <Link to="/">
                 <div className="home-button__container">
-                    <div className="home-button__container__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-5.514 0-10-4.486-10-10s4.486-10 10-10 10 4.486 10 10-4.486 10-10 10zm-1-15h2v8h-2v-8zm0 10h2v2h-2v-2z"/></svg>
-                        Home
-                    </div>
+                    <img src= {language === 'es'? logoes : logoen} alt="logo" className="home-button__container__logo" />
+                    {/* <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons">Wolf icons created by Icongeek26 - Flaticon</a> */}
                 </div>
             </Link>
         </div>

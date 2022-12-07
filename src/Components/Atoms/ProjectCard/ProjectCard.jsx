@@ -20,11 +20,11 @@ const ProjectCard = ({title, img, description, link, technologies}) => {
 
 
     return (
-        <div className="flex flex-col items-center justify-around w-project h-project border border-white rounded-xl">
+        <div className="flex flex-col items-center justify-around w-project h-project bg-sideBg shadow-md shadow-neutral-900 rounded-lg">
             <div className="flex justify-center items-center w-full h-1/6">
                 <h1 className="font-sans text-3xl font-extrabold w-1/2 ">{title}</h1>
             </div>
-            <div onClick={() => set(state => !state)} className="w-full h-2/3">
+            <div onClick={() => set(state => !state)} className="w-full h-2/3 flex flex-col justify-around">
                 {
                     !flipped ? (
                         <a.div className=" w-full h-full"
@@ -36,7 +36,7 @@ const ProjectCard = ({title, img, description, link, technologies}) => {
                                     }}
                         />
                     ) : (
-                        <a.div className="flex flex-col w-full h-full p-4 overflow-auto justify-around items-center" 
+                        <a.div className="flex flex-col w-full h-full p-2 bg-zinc-900 overflow-auto justify-around items-center" 
                             style={{opacity,
                                     transform,
                                     rotateY: '180deg',

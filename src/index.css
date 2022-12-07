@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@1,800&display=swap');
 @tailwind base;
+* {
+  scrollbar-width: 1px;
+  scrollbar-color: transparent #dad5d5;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 14px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #dad5d5;
+  border-radius: 14px;
+  border: 3px solid transparent;
+}
+
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

@@ -14,7 +14,7 @@ const ContactMainSection  = () => {
         <div className="flex flex-col justify-around items-center w-full h-full">
             <ContactDescription title={data.sideItems[3].subTitle} description={data.sideItems[3].description} />
             <ContactForm />
-            <NetworksButtons />
+            <NetworksButtons color='text-sky-400' size='10'/>
         </div>
     )
 }

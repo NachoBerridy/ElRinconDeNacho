@@ -1,18 +1,27 @@
 import { useForm } from 'react-hook-form';
 import { useSelector } from 'react-redux';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
 
     const { language } = useSelector(state => state.data);
     const { register, handleSubmit, formState: { errors } } = useForm();
-
+    const form = useRef();
     const onSubmit = (data) => {
-        console.log(data);
+        console.log(form)
+        console.log(data)
+        emailjs.sendForm('service_6bz5kfr', 'template_8ynbgr7', form.current, '79V9-wJaNtKDjICTa')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
     return (
         language === "en" ?
-            <form onSubmit={handleSubmit(onSubmit)} className = "grid grid-cols-1 grid-rows-6 gap-3 h-title w-about" >
+            <form ref={form} onSubmit={handleSubmit(onSubmit)} className = "grid grid-cols-1 grid-rows-6 gap-3 h-title w-about" >
                 <div className='flex gap-3 row-span-1 row-start-1 '>
                     <div className="flex flex-col gap-1 h-full w-1/2">
                         <input type="text" id="name" {...register("name", { required: true })} placeholder='Name' className='h-full p-2' />

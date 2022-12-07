@@ -21,16 +21,22 @@
         },
         {
             "title":"Projects",
+            "description":"Add some description about your projects",
             "projects":[
                 {
                     "title":"Liberfit",
-                    "description":"Liberfit is a web application that allows you to manage your gym and your clients.",
+                    "description":"Liberfit is a web application that allows you to manage your gym, users to enroll in different courses and trainers to create and manage their courses.",
                     "technologies":[
                         "React",
                         "Redux",
                         "Node",
                         "Express",
-                        "PostgreSQL"
+                        "PostgreSQL",
+                        "TypeScript",
+                        "JavaScript",
+                        "CSS",
+                        "Tailwind",
+                        "Sequelize"
                     ],
                     "link":"https://github.com/NachoBerridy/LiberFit-PF",
                     "img": "https://drive.google.com/uc?export=view&id=1H0U8ESTccm0k1F9crzKEV9lRFHmEFPl1"

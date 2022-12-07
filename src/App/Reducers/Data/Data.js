@@ -4,9 +4,9 @@ import EN from '../../../assets/EN.json'
 
 
 const initialState = {
-    language: "es",
+    language: "en",
     theme: "dark",
-    data : ES
+    data : EN
 }
 
 const dataSlice = createSlice({

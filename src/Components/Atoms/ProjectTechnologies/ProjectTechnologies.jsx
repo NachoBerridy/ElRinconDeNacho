@@ -19,42 +19,42 @@ const ProjectTechnologies = ({ technologies }) => {
 
         switch (technologie) {
             case "react":
-                return <GrReactjs className="w-1/2 h-1/2 text-sky-600"/>
+                return <GrReactjs className="w-1/2 h-5 text-sky-600"/>
             case "node":
-                return <GrNode className="w-1/2 h-1/2 text-lime-700"/>
+                return <GrNode className="w-1/2 h-5 text-lime-700"/>
             case "tailwind":
-                return <SiTailwindcss className="w-1/2 h-1/2 text-teal-500"/>
+                return <SiTailwindcss className="w-1/2 h-5 text-teal-500"/>
             case "postgresql":
-                return <SiPostgresql className="w-1/2 h-1/2 text-blue-600" />
+                return <SiPostgresql className="w-1/2 h-5 text-blue-600" />
             case "sequelize":
-                return <SiSequelize className="w-1/2 h-1/2 text-cyan-700"/>
+                return <SiSequelize className="w-1/2 h-5 text-cyan-700"/>
             case "mongodb":
-                return <SiMongodb className="w-1/2 h-1/2 text-green-800"/>
+                return <SiMongodb className="w-1/2 h-5 text-green-800"/>
             case "javascript":
-                return <SiJavascript className="w-1/2 h-1/2 text-yellow-400"/>
+                return <SiJavascript className="w-1/2 h-5 text-yellow-400"/>
             case "typescript":
-                return <SiTypescript className="w-1/2 h-1/2 text-blue-800"/>
+                return <SiTypescript className="w-1/2 h-5 text-blue-800"/>
             case "html":
-                return <SiHtml5 className="w-1/2 h-1/2 text-orange-500"/>
+                return <SiHtml5 className="w-1/2 h-5 text-orange-500"/>
             case "css":
-                return <SiCss3 className="w-1/2 h-1/2 text-blue-600 "/>
+                return <SiCss3 className="w-1/2 h-5 text-blue-600 "/>
             case "sass":
-                return <SiSass className="w-1/2 h-1/2 text-pink-500"/>
+                return <SiSass className="w-1/2 h-5 text-pink-500"/>
             case "redux":
-                return <SiRedux className="w-1/2 h-1/2 text-violet-800"/>
+                return <SiRedux className="w-1/2 h-5 text-violet-800"/>
             case "express":
-                return <SiExpress className="w-1/2 h-1/2 text-gray-400"/>
+                return <SiExpress className="w-1/2 h-5 text-gray-400"/>
             default:
                 return null
         }
     }
 
     return (
-        <div className="flex flex-wrap justify-around items-center w-full h-1/6 gap-3">
+        <div className="flex flex-wrap justify-around items-start w-full h-fit gap-4">
             {
                 technologies.map((technology) => {
                     return (
-                        <div className="flex flex-col justify-center items-center w-1/6 h-full">
+                        <div className="flex flex-col justify-center items-center w-1/6">
                             {technologiesDictionary(technology.toLowerCase())}
                             <p className="text-sky-400">{technology}</p>
                         </div>
