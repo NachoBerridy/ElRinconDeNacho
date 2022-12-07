@@ -8,7 +8,8 @@ module.exports = {
       width: {
         "about": "45vw",
         "dotsBox": "30px",
-        "dots": "8%"
+        "dots": "8%",
+        "project": "38vw",
       },
       height: {
         "cloud": "70vh",
@@ -16,6 +17,7 @@ module.exports = {
         "dotsBox": "30px",
         "dots": "8%",
         "about": "50vh",
+        "project": "66vh",
       },
       colors: {
         "sideBg": "#383838",

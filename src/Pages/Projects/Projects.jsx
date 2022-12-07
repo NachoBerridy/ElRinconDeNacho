@@ -1,12 +1,9 @@
-import React from "react";
+import ProjectsTemplate from "../../Components/Templates/Projects/ProjectsTemplate";
 
 const Projects = () => {
 
     return (
-        <h1>
-            Projects
-        </h1>
-
+        <ProjectsTemplate />
     );
 
 }
