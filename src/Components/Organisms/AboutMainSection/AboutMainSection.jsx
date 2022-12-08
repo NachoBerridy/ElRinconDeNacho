@@ -4,7 +4,8 @@ import TitleWords from "../../Atoms/TitleLetters/TitleWords";
 
 const AboutMainSection = () => {
 
-    const info = useSelector(state => state.data.data.sideItems)[0]
+    const info = useSelector(state => state.data.data.info.about)
+    console.log(info)
 
     return (
         <div className="h-about w-about justify-center items-center p-4 ">

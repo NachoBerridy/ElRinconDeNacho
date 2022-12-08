@@ -9,8 +9,8 @@ const LanguageButton = () => {
     const dispatch = useDispatch();
 
     const { language } = useSelector(state => state.data);
-    const [disabledEs, setDisabledEs] = React.useState(true);
-    const [disabledEn, setDisabledEn] = React.useState(false);
+    const [disabledEs, setDisabledEs] = React.useState(false);
+    const [disabledEn, setDisabledEn] = React.useState(true);
 
     const handleClick = (e) => {
         e.preventDefault();

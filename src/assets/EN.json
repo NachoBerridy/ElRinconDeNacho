@@ -4,6 +4,73 @@
         "I'm Nacho",
         "Web Developer"
     ],
+    "info":{
+        "about":{
+            "title":"About",
+            "subTitle":"About Me",
+            "link":"#about",
+            "description":[
+                "I'm a web developer from Argentina." ,
+                "I'm passionate about web development and I'm always looking for new challenges and opportunities."
+            ]
+        },
+        "skills": {
+            "title":"Habilidades",
+            "description":[
+                "Me encuentro en constante aprendisaje, me gustan los desafíos y crear cosas nuevas. Actualmente estoy abocado a especializarme en el desarrollo web, también me continuo formándome en el area de la ingeniería y la inteligencia artificial.",
+                "Estas son las tecnologías con las que me encuentro familiarizado y he utilizado en mis proyectos."
+            ],
+            "link":"#skills"
+        },
+        "projects":{
+            "title":"Projects",
+            "description":"Add some description about your projects",
+            "projects":[
+                {
+                    "title":"Liberfit",
+                    "description":"Liberfit is a web application that allows you to manage your gym, users to enroll in different courses and trainers to create and manage their courses.",
+                    "technologies":[
+                        "React",
+                        "Redux",
+                        "Node",
+                        "Express",
+                        "PostgreSQL",
+                        "TypeScript",
+                        "JavaScript",
+                        "CSS",
+                        "Tailwind",
+                        "Sequelize"
+                    ],
+                    "link":"https://github.com/NachoBerridy/LiberFit-PF",
+                    "img": "https://drive.google.com/uc?export=view&id=1H0U8ESTccm0k1F9crzKEV9lRFHmEFPl1"
+                },
+                {
+                    "title":"Let's Travel",
+                    "description":"Let's Travel is a web application that allows you to learn about the countries of the world",
+                    "technologies":[
+                        "React",
+                        "Redux",
+                        "Node",
+                        "Express",
+                        "PostgreSQL",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "SASS",
+                        "Sequelize"
+                    ],
+                    "link":"https://github.com/NachoBerridy/Countries_Proyect",
+                    "img": "https://drive.google.com/uc?export=view&id=1gS24u6qGl6C1fwq-Z_UQlrLqYAd2g1h4"
+                }
+            ]
+        },
+        "contact":{
+            "title":"Contact",
+            "subTitle":"Contact Me",
+            "description":"If you have any questions, you want to work with me or just want to say hi, feel free to contact me.",
+            "link":"#contact"
+        }
+    },
     "sideItems":[
         {
             "title":"About",

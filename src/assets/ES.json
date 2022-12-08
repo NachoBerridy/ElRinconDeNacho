@@ -4,6 +4,73 @@
         "Soy Nacho",
         "Desarrollador Web"
     ],
+    "info":{
+        "about":{
+            "title":"Sobre mí",
+            "subTitle":"Sobre Mí",
+            "link":"#about",
+            "description":[
+                "Soy Desarrollador Web. Me apasiona la tecnología y resolver problemas, por eso me embarqué en este camino de la  programación. Además me encanta la matemática y la física, entender como funcionan las cosas.",
+                "Actualmente estudio ingeniería y programación. Gracias a mi carrera en ingeniería pude aprender y me despertó gran interés la inteligencia artificial aplicada a la resolución de distintos problemas."
+            ]
+        },
+        "skills": {
+            "title":"Habilidades",
+            "description":[
+                "Me encuentro en constante aprendisaje, me gustan los desafíos y crear cosas nuevas. Actualmente estoy abocado a especializarme en el desarrollo web, también me continuo formándome en el area de la ingeniería y la inteligencia artificial.",
+                "Estas son las tecnologías con las que me encuentro familiarizado y he utilizado en mis proyectos."
+            ],
+            "link":"#skills"
+        },
+        "projects":{
+            "title":"Proyectos",
+            "description":"Agregar una buena descripción de los proyectos",
+            "projects":[
+                {
+                    "title":"Liberfit",
+                    "description":"Liberfit es una aplicación web que permite a administrar tu gimnasio, a los usuarios inscribirse a distintos cursos y a los profesores crear y administrar sus cursos.",
+                    "technologies":[
+                        "React",
+                        "Redux",
+                        "Node",
+                        "Express",
+                        "PostgreSQL",
+                        "TypeScript",
+                        "JavaScript",
+                        "CSS",
+                        "Tailwind",
+                        "Sequelize"
+                    ],
+                    "link":"https://github.com/NachoBerridy/LiberFit-PF",
+                    "img": "https://drive.google.com/uc?export=view&id=1H0U8ESTccm0k1F9crzKEV9lRFHmEFPl1"
+                },
+                {
+                    "title":"Let's Travel",
+                    "description":"Let's Travel es una aplicación web que permite a los usuarios aprender sobre distintos países alrededor del mundo.",
+                    "technologies":[
+                        "React",
+                        "Redux",
+                        "Node",
+                        "Express",
+                        "PostgreSQL",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "SASS",
+                        "Sequelize"
+                    ],
+                    "link":"https://github.com/NachoBerridy/Countries_Proyect",
+                    "img": "https://drive.google.com/uc?export=view&id=1gS24u6qGl6C1fwq-Z_UQlrLqYAd2g1h4"
+                }
+            ]
+        },
+        "contact":{
+            "title":"Contacto",
+            "subTitle":"Contactame",
+            "description":"Si tenes alguna pregunta, te interesa trabajar conmigo o simplemente quieres saludar, no dudes en contactarme.",
+            "link":"#contact"
+        }
+    },
     "sideItems":[
         {
             "title":"Sobre mí",

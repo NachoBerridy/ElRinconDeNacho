@@ -5,14 +5,14 @@ import TitleWords from "../../Atoms/TitleLetters/TitleWords";
 
 const ProjectsMainSection = () => {
 
-    const { data } = useSelector(state => state.data)	
+    const info = useSelector(state => state.data.data.info.projects)	
 
     return (
         <div className="proyects-main-section flex flex-col px-5 pt-5 pb-1  justify-between items-start h-screen">
             <div className="">
-                <TitleWords title={data.sideItems[2].title} />
+                <TitleWords title={info.title} />
                 <p className="text-justify text-white text-lg mt-5 w-5/6">
-                    {data.sideItems[2].description}
+                    {info.description}
                 </p>
             </div>
             <ProjectsContainer />

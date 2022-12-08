@@ -3,11 +3,8 @@ import ProjectCard from "../../Atoms/ProjectCard/ProjectCard";
 
 const ProjectsContainer = () => {
 
-    const { data } = useSelector(state => state.data)
-
-    const projects = data.sideItems[2].projects
-    console.log(projects[0].img)
-
+    const projects = useSelector(state => state.data.data.info.projects.projects)
+    
     return (
 
         <div className="projects-container flex gap-5 flex-wrap justify-between pr-2 items-start w-full h-cloud overflow-x-hidden overflow-y-scroll">

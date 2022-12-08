@@ -8,11 +8,10 @@ const ContactMainSection  = () => {
 
     const { language } = useSelector(state => state.data);
     const { data } = useSelector(state => state.data);
-    console.log(data.sideItems)
 
     return (
         <div className="flex flex-col justify-around items-center w-full h-full">
-            <ContactDescription title={data.sideItems[3].subTitle} description={data.sideItems[3].description} />
+            <ContactDescription title={data.info.contact.subTitle} description={data.info.contact.description} />
             <ContactForm />
             <NetworksButtons color='text-sky-400' size='10'/>
         </div>
