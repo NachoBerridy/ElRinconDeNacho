@@ -16,6 +16,10 @@
         },
         {
             "title":"Habilidades",
+            "description":[
+                "Me encuentro en constante aprendisaje, me gustan los desafíos y crear cosas nuevas. Actualmente estoy abocado a especializarme en el desarrollo web, también me continuo formándome en el area de la ingeniería y la inteligencia artificial.",
+                "Estas son las tecnologías con las que me encuentro familiarizado y he utilizado en mis proyectos."
+            ],
             "link":"#skills"
         },
         {
@@ -77,6 +81,11 @@
         "Redux",
         "Node",
         "Express",
-        "TypeScript"
+        "TypeScript",
+        "Python",
+        "Pandas",
+        "Numpy",
+        "Matplotlib"
+
     ]
 }

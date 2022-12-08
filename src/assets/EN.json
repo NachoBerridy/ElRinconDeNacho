@@ -77,7 +77,11 @@
         "Tailwind",
         "Redux",
         "Node",
-        "Express", 
-        "TypeScript"
+        "Express",
+        "TypeScript",
+        "Python",
+        "Pandas",
+        "Numpy",
+        "Matplotlib"
     ]
 }
