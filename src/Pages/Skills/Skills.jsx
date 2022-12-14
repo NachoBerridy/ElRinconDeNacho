@@ -1,11 +1,10 @@
 import React from "react";
+import SkillsTemplate from "../../Components/Templates/Skills/SkillsTemplate";
 
 const Skills = () => {
 
     return (
-        <h1>
-            Skills
-        </h1>
+        <SkillsTemplate />
 
     );
 
