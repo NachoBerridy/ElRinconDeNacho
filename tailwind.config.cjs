@@ -35,6 +35,7 @@ module.exports = {
       },
       colors: {
         "sideBg": "#383838",
+        "all": "#242424",
       },
       keyframes: {
         "wiggle": {

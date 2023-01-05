@@ -53,7 +53,7 @@ const Dots = () => {
         <div className="absolute top-0 left-0 flex flex-wrap w-screen h-screen mt-3 ml-2 ">
             {[...Array(amount)].map((e, i) => (
                 <div key={i} className={`boxes w-dotsBox h-dotsBox relative float-left`}>
-                    <div className={`circle absolute w-dots h-dots bg-sky-500 rounded-full `} >
+                    <div className={`circle absolute w-dots h-dots bg-sky-500 rounded-full animate-bounce `} >
                     </div>
                 </div>
             ))}
